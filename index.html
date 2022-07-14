@@ -1,45 +1,455 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Masterwork</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Masterwork</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- GOOGLE FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
-        rel="stylesheet">
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
+  <!-- up to top -->
+  <a href="#" class="uptotop cd-top text-replace js-cd-top"><i class="fa-solid fa-angle-up"></i></a>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><i class="fa-regular fa-handshake"></i>Masterwork</a>
 
-<footer>ho dang dung</footer>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fa-solid fa-bars"></i>
+        </button>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages <i
+                  class="fa-solid fa-angle-down"></i></a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Blog posts</a>
+                <a class="dropdown-item" href="#">Blog Single</a>
+                <a class="dropdown-item" href="#">Landing Page</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <div>
+              <li class="nav-item">
+                <button class="button" href="#">SCHEDULE A DEMO</button>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Banner -->
+  <section id="banner">
+    <div class="banner__wrapper">
+      <div class="container">
+        <div class="banner__content row align-items-center">
+          <div class="banner__text title col-lg-6">
+            <h1 class="mb-2">We Excute Our Ideas From Start to Finish</h1>
+            <p class="mb-5">
+              Building a beautiful interactive business for <br />
+              startups and innovative companies.
+            </p>
+            <div class="banner__button">
+              <button class="button" href="#">GET STARTED</button>
+            </div>
+          </div>
+          <div class="banner__img img-fluid col-lg-6">
+            <img src="./images/main.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Infor -->
+  <section id="infor">
+    <div class="container pt-5">
+      <div class="infor__text title text-center">
+        <h3>WHY CHOOSE US</h3>
+        <h1>Tools for business startup to professional</h1>
+        <p>
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+          sodales quis. Integer sit amet mattis quam.
+        </p>
+      </div>
+      <div class="row pt-5 text-center">
+        <div class="infor__content col-md-6 col-lg-4">
+          <div class="infor__item">
+            <img class="img-fluid" src="./images/s1.png" alt="" />
+            <h4>Interactive</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              eligendi recusandae et.
+            </p>
+          </div>
+        </div>
+        <div class="infor__content col-md-6 col-lg-4">
+          <div class="infor__item">
+            <img class="img-fluid" src="./images/s2.png" alt="" />
+            <h4>Business</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              eligendi recusandae et.
+            </p>
+          </div>
+        </div>
+        <div class="infor__content col-lg-4">
+          <div class="infor__item">
+            <img class="img-fluid" src="./images/s3.png" alt="" />
+            <h4>Inspiration</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              eligendi recusandae et.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABout Us  -->
+  <section id="about">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="about__content title col-lg-6">
+          <h3>ABOUT OUT COMPANY</h3>
+          <h1 class="pb-3">The Best Choice For Your Successful Business!</h1>
+          <p class="pb-3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est
+            repellendus illum harum quam nihil totam reprehenderit! Ut sed
+            eveniet quos! Asperiores officia, repudiandae similique
+            reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.
+          </p>
+          <div><button class="button">READ MORE</button></div>
+        </div>
+        <div class="about__img pt-5 col-lg-6">
+          <img class="img-fluid" src="./images/about.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- count -->
+    <section id="count">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="count__content col-sm-6 col-md-6 col-lg-4">
+            <div class="count__item">
+              <strong>Happy Customers</strong>
+              <h2 class="counter">10458</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Facere atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="count__content col-sm-6 col-md-6 col-lg-4">
+            <div class="count__item">
+              <strong>Winning Awards</strong>
+              <h2 class="counter">890</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Facere atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="count__content col-sm-6 col-md-6 col-lg-4">
+            <div class="count__item">
+              <strong>Completed Projects</strong>
+              <h2 class="counter">5345</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Facere atque sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- intro -->
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="intro__content col-lg-12">
+          <h3>
+            We are true to ourselves, and commit <br />
+            to always perform at our best.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, doloribus <br />
+            atque. Corrupti exercitationem voluptatem ipsum iste consequuntur
+            <br />
+            et vitae voluptas temporibus? Maxime dolores amet voluptatum illo
+            <br />
+            consequatur placeat fugit ducimus.
+          </p>
+          <div><button class="button">READ MORE</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Solution  -->
+  <section id="solution">
+    <div class="container pt-3">
+      <div class="solution__text text-center title">
+        <h3>WE ARE HERE FOR YOU</h3>
+        <h1>Explore Solutions</h1>
+        <p>
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus <br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+        </p>
+      </div>
+      <div class="solution__content__wrapper pt-5">
+        <div class="row">
+          <div class="solution__content col-sm-12 col-md-6 col-lg-4">
+            <div class="solution__item it__1">
+              <a href="#"><img src="./images/b1.jpg" class="img-fluid" alt="" />
+                <p class="date">26 Jan, 2020</p>
+              </a>
+              <div class="solution__infor">
+                <h5>Business</h5>
+                <h3><a href="#">Corporate, Business & Digital Agency</a></h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sed deserunt alias nostrum quidem sint similique expedita.
+                </p>
+                <a href="#" class="know">Know More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="solution__content col-sm-12 col-md-6 col-lg-4">
+            <div class="solution__item it__2">
+              <a href="#"><img src="./images/b7.jpg" class="img-fluid" alt="" />
+                <p class="date">15 Apr, 2020</p>
+              </a>
+              <div class="solution__infor">
+                <h5>Design</h5>
+                <h3><a href="#">Corporate, Business & Digital Agency</a></h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sed deserunt alias nostrum quidem sint similique expedita.
+                </p>
+                <a href="#" class="know">Know More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="solution__content col-sm-12 col-md-6 col-lg-4">
+            <div class="solution__item it__3">
+              <a href="#"><img src="./images/b3.jpg" class="img-fluid" alt="" />
+                <p class="date">25 Jun, 2020</p>
+              </a>
+              <div class="solution__infor">
+                <h5>Industry</h5>
+                <h3><a href="#">Corporate, Business & Digital Agency</a></h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sed deserunt alias nostrum quidem sint similique expedita.
+                </p>
+                <a href="#" class="know">Know More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- General FAQs -->
+  <section id="general" class="py-5">
+    <div class="contaier py-5">
+      <div class="title__header text-center mx-auto">
+        <h6>QUESTIONS AND ANSWERS</h6>
+        <h2>General FAQs</h2>
+        <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla
+          mollis dapibus
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+      </div>
+      <div class="title__bottom container py-5">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="./images/women.jpg" alt="">
+          </div>
+
+          <div class="col-md-7 pl-lg-5">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header mb-3" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    There are many passages but the majority?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Voluptates amet earum velit nobis aliquam
+                    laboriosam nihil debitis facere voluptatibus consectetur quae quasi fuga, ad corrupti libero omnis
+                    sapiente
+                    non assumenda, incidunt officiis eaque iste minima autem.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Sed ut perspiciatis unde omnis?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
+                    laboriosam nihil debitis animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                    voluptates eveniet, incidunt officiis eaque iste minima autem.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    At vero eos iusto odio ducimus qui?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
+                  laboriosam nihil quasi fuga, ad corrupti libero omnis sapiente
+                  non assumenda excepturi aperiam animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                  voluptates eveniet, incidunt officiis eaque iste minima autem.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    We denounce with righteous?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
+                  laboriosam nihil quasi fuga, ad corrupti libero omnis sapiente
+                  non assumenda excepturi aperiam animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                  voluptates eveniet, incidunt officiis eaque iste minima autem.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    perspiciatis unde omnis?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
+                  laboriosam nihil quasi fuga, ad corrupti libero omnis sapiente
+                  non assumenda excepturi aperiam animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                  voluptates eveniet, incidunt officiis eaque iste minima autem.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    At vero eos iusto odio ducimus qui?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
+                  laboriosam nihil quasi fuga, ad corrupti libero omnis sapiente
+                  non assumenda excepturi aperiam animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                  voluptates eveniet, incidunt officiis eaque iste minima autem.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects -->
+  <section id="projects">
+    
+  </section>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- up to top -->
+  <script src="./libs/up to top/util.js"></script>
+  <script src="./libs/up to top/main.js"></script>
+  <!-- countup & waypoint-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./libs/countup/jquery.countup.js"></script>
+  <script>
+    $(".counter").countUp();
+  </script>
 </body>
 
 </html>
