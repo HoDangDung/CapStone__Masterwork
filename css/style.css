@@ -813,16 +813,23 @@ header .dropdown-menu {
 }
 
 .copyright__footer {
-  width: 70%;
-  margin: auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  gap: auto;
 }
 
 .copyright__footer .row {
   justify-content: center;
 }
-
+.copyright__footer a {
+  text-decoration: none;
+}
 .copyright__footer ul li i {
-  color: #2c3038;
+  color: black;
+}
+.copyright__footer ul li i:hover {
+  color: #dc4f72;
 }
 
 /* ===================== */
