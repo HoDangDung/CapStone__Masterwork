@@ -518,6 +518,10 @@ header .dropdown-menu {
   top: 80px;
 }
 
+.fa-solid, .fas{
+  float: right;
+}
+
 .title__bottom .card {
   border-radius: 5px;
   cursor: pointer;
