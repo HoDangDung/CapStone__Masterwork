@@ -223,8 +223,8 @@ header .dropdown-menu {
   header .nav-link:hover:after,
   .dropdown-item:hover::after {
     width: 0px;
+  }
 }
-
 /* banner */
 #banner {
   margin-top: 80px;
