@@ -14,6 +14,7 @@
 .title h1 {
   font-size: 3rem;
   font-weight: bolder;
+  color: white;
 }
 .title p {
   font-size: 1.2rem;
@@ -93,8 +94,7 @@ header {
   left: 0;
   right: 0;
   padding: 10px 0;
-  background-color: white;
-  box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+  background-color: #000000;
 
   z-index: 1003;
 }
@@ -114,7 +114,7 @@ header .nav-link:hover,
   color: #dd5476 !important;
 }
 header .nav-link {
-  color: black !important;
+  color: white !important;
   font-weight: 300;
   transition: all 0.5s;
 }
@@ -147,8 +147,11 @@ header .nav-link:hover:after,
 .dropdown-toggle::after {
   border: none !important;
 }
+
 .dropdown-item {
-  color: black !important;
+  /* color: black !important; */
+  color: white;
+  background-color: #222222;
 }
 
 .dropdown-item:focus,
@@ -164,12 +167,13 @@ header .nav-link:hover:after,
 }
 header .dropdown-menu {
   transform: translateX(-40px);
+  background-color: #222222;
 }
 .dropdown-menu::before {
   content: "";
   width: 14px;
   height: 14px;
-  background-color: white;
+  background-color: #222222;
   border: 1px solid rgba(0, 0, 0, 0.15);
   display: block;
   position: absolute;
@@ -202,7 +206,7 @@ header .dropdown-menu {
     content: "";
     width: 14px;
     height: 14px;
-    background-color: white;
+    background-color: #222222;
     border: 1px solid rgba(0, 0, 0, 0.15);
     display: block;
     position: absolute;
@@ -219,7 +223,6 @@ header .dropdown-menu {
   header .nav-link:hover:after,
   .dropdown-item:hover::after {
     width: 0px;
-  }
 }
 
 /* banner */
@@ -234,7 +237,9 @@ header .dropdown-menu {
   background-attachment: fixed;
   padding-top: 60px;
 }
-
+#banner h1 {
+  color: black !important;
+}
 .banner__img {
   transform: rotateX(180deg);
 }
@@ -260,19 +265,20 @@ header .dropdown-menu {
 /* Infor */
 #infor {
   padding: 50px 0;
+  background-color: #222222;
 }
 
 .infor__item {
-  background-color: #f7f9fc;
+  background-color: #151515;
   padding: 40px 30px;
   transition: all 0.5s ease-in;
-  box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+  /* box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2); */
   transform: translateY(0);
 }
 .infor__item:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
   transform: translateY(-0.5rem);
-  background-color: white;
+  background-color: #000000;
 }
 .infor__item img {
   padding-bottom: 15px;
@@ -280,6 +286,7 @@ header .dropdown-menu {
 .infor__item h4 {
   font-weight: 700;
   padding-bottom: 10px;
+  color: white;
 }
 .infor__item p {
   color: gray;
@@ -307,7 +314,7 @@ header .dropdown-menu {
 /* About Us */
 #about {
   padding: 50px 0;
-  background-color: #f7f9fc;
+  background-color: #151515;
 }
 
 .about__content h1 {
@@ -346,14 +353,17 @@ header .dropdown-menu {
 
 /* Count */
 .count__item {
-  background-color: white;
+  background-color: #222222;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+  box-shadow: 1px 5px 7.5px rgba(20, 17, 17, 0.2);
   transition: all 0.5s;
 }
 .count__item:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+.count__item strong {
+  color: white;
 }
 .count__item h2 {
   padding-top: 10px;
@@ -403,14 +413,16 @@ header .dropdown-menu {
 /* solution */
 #solution {
   padding: 50px 0;
+  background-color: #151515;
 }
 .solution__item {
-  border: 1px solid #eee;
+  border: 1px solid #000000;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   overflow: hidden;
   transform: translateY(0);
   transition: all 0.5s ease;
+  background-color: #222222;
 }
 .solution__item:hover {
   transform: translateY(-10px);
@@ -460,14 +472,14 @@ header .dropdown-menu {
 }
 .it__3 h5 {
   background: rgba(0, 0, 255, 0.2);
-  color: #0000ff;
+  color: #5c5db3;
 }
 .solution__infor {
   padding: 20px 30px 30px 20px;
 }
 .solution__infor a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .solution__infor h3 {
   font-weight: 600;
@@ -500,23 +512,29 @@ header .dropdown-menu {
     margin-bottom: 50px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   #solution .slt__3 {
     margin-left: 25%;
   }
 }
+
 /* Dũng */
 /* General FAQs */
 #general {
-  background-color: #f7f9fc;
+  background-color: #222222;
+}
+#general h6 {
+  color: #dc4f72;
 }
 
 #general h2 {
   font-size: 46px;
   font-weight: bold;
+  color: white;
 }
-
+#general .title__header p {
+  color: gray;
+}
 #general .title__header {
   max-width: 750px;
   margin: 0 auto;
@@ -549,18 +567,28 @@ header .dropdown-menu {
 .title__bottom .card {
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: none;
-  border: 1px solid #eee;
-}
 
-.title__bottom .card i::after {
+  box-shadow: none;
+  border: 1px solid;
+  position: relative;
+}
+/* .title__bottom .card {
+} */
+
+.title__bottom .card i {
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+/* .title__bottom .card i::after {
   position: absolute;
   top: 0;
   right: 0px;
-}
+} */
 
 .title__bottom .card-header {
-  background-color: white;
+  background-color: #151515;
   border-bottom: none;
   font-size: 20px;
   padding: 1.25rem;
@@ -570,21 +598,21 @@ header .dropdown-menu {
 .title__bottom .card-body {
   padding: 0 1.25rem;
   padding-bottom: 1.25rem;
-  color: #5a5a5a;
+  color: white;
+  background-color: #151515;
 }
-.title__bottom .card i {
-  position: absolute;
-  right: 20px;
-  top: 25px;
-}
+
 .title__bottom .card-header .card-link,
 .title__bottom .card-header .card-body {
-  color: black;
+  color: white;
 }
 
 /* ==================== */
 
 /* PROJECTS */
+#projects {
+  background-color: #151515;
+}
 #projects .header__projects {
   max-width: 750px;
   margin: 0 auto;
@@ -600,10 +628,11 @@ header .dropdown-menu {
 #projects .header__projects h1 {
   font-weight: bold;
   font-size: 46px;
+  color: white;
 }
 
 #projects .header__projects p {
-  color: #5a5a5a;
+  color: gray;
 }
 
 .bottom__content {
@@ -626,7 +655,7 @@ header .dropdown-menu {
   border-radius: 0;
   cursor: pointer;
   background-color: transparent;
-  border-bottom: 3px solid #eee;
+  border-bottom: 3px solid #000000;
   padding: 15px;
 }
 
@@ -640,7 +669,7 @@ header .dropdown-menu {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #dc4f72;
-  background-color: white;
+  background-color: #151515;
   border-bottom: 3px solid #dc4f72;
   border-radius: 0;
 }
@@ -653,6 +682,7 @@ header .dropdown-menu {
 
 .tab-content h2 {
   font-weight: bold;
+  color: white;
 }
 
 .tab-content p {
@@ -671,16 +701,7 @@ header .dropdown-menu {
 .tab-content img:hover {
   transform: translateY(-10px);
 }
-@media screen and (max-width: 991.98px) {
-  #projects .bottom__projects .nav-item .nav-link {
-    font-size: 18px;
-  }
-}
-@media screen and (max-width: 767.98px) {
-  #projects .bottom__projects .nav-item .nav-link {
-    font-size: 14px;
-  }
-}
+
 /* ==================== */
 
 /* Our Clients Testimonials */
@@ -697,7 +718,9 @@ header .dropdown-menu {
   background-position: center;
   background-attachment: fixed;
 }
-
+.testimonial__text h1 {
+  color: black;
+}
 .testimonial__item {
   /* display: flex;
   justify-content: space-around; */
@@ -766,11 +789,14 @@ header .dropdown-menu {
 /* ===================== */
 
 /* Community */
-
+#community {
+  background-color: #151515;
+}
 #community h1 {
   width: 60%;
   margin: auto;
   font-weight: 700;
+  color: white;
 }
 
 #community p {
@@ -798,17 +824,18 @@ header .dropdown-menu {
 
 /* FOOTER */
 #footer {
-  background-color: #f7f9fc;
+  background-color: #222222;
 }
 
 #footer h4 {
   font-weight: 700;
   font-size: 20px;
+  color: white;
 }
 
 #footer li {
   padding-bottom: 1rem;
-  color: #656f7b;
+  color: white;
 }
 
 #footer li a {
@@ -816,7 +843,7 @@ header .dropdown-menu {
   cursor: pointer;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #656f7b;
+  color: white;
 }
 
 #footer li a:hover {
@@ -838,9 +865,17 @@ header .dropdown-menu {
   border: none;
 }
 .card {
-  box-shadow: 0 10px 10px #8080803b;
   border-radius: 5px;
-  border: 1px solid transparent;
+  border: none;
+}
+.card-body {
+  background-color: #151515;
+}
+.card-body p {
+  color: white;
+}
+#footer .copyright__footer p {
+  color: white;
 }
 
 .subscribe .form-group {
@@ -850,10 +885,9 @@ header .dropdown-menu {
 }
 
 .subscribe input {
-  background-color: #f7f9fc;
+  background-color: #222222;
   color: #2c3038;
   font-weight: 700;
-  border: 1px solid #f7f9fc;
 }
 
 .btn-outline-secondary {
@@ -869,7 +903,7 @@ header .dropdown-menu {
   text-decoration: none;
 }
 .copyright__footer ul li i {
-  color: black;
+  color: white;
 }
 .copyright__footer ul li i:hover {
   color: #dc4f72;
