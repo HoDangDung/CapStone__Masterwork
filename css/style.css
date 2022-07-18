@@ -71,6 +71,7 @@
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s;
+  z-index: 1200;
 }
 .uptotop:hover {
   background-color: #dc4f72;
@@ -220,6 +221,9 @@ header .dropdown-menu {
 @media screen and (max-width: 991.98px) {
   .banner__content .banner__text {
     margin-top: 50px;
+  }
+  #banner .banner__content .banner__img img {
+    display: block;
   }
 }
 @media screen and (max-width: 575.98px) {
@@ -477,3 +481,8 @@ header .dropdown-menu {
     margin-bottom: 50px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  #solution .slt__3 {
+    margin-left: 25%;
+  }
+} ;
