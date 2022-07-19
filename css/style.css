@@ -606,13 +606,26 @@ header .dropdown-menu {
   color: #5a5a5a;
 }
 
+#projects .button{
+  text-decoration: none;
+  color: #dc4f72;
+  border: 1px solid #dd5476;
+}
+
+#projects .button:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #dc4f72;
+  border: 1px solid #dd5476;
+}
+
 .bottom__content {
   display: block;
   width: 100%;
 }
 
 .bottom__projects {
-  width: 70%;
+  width: 75%;
   margin: auto;
 }
 
@@ -645,6 +658,11 @@ header .dropdown-menu {
   border-radius: 0;
 }
 
+.tab-content{
+  width: 98%;
+  margin: auto;
+}
+
 .tab-content .btn {
   cursor: pointer;
   padding: 1rem 2rem;
@@ -671,6 +689,42 @@ header .dropdown-menu {
 .tab-content img:hover {
   transform: translateY(-10px);
 }
+
+#bottom__projects a{
+  color: black;
+}
+
+#bottom__projects .card {
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid #8080806e;
+}
+
+#bottom__projects .card-header{
+  cursor: pointer;
+}
+
+#bottom__projects .card-header i{
+  float: right;
+  color: #c1c1c1;
+  font-size: 1.3rem;
+}
+
+#bottom__projects .card-body{
+  border-top: 3px solid #dc4f72;
+}
+
+#bottom__projects .card-body img{
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+#bottom__projects .card-link.active, 
+#bottom__projects .show > .card-header {
+  background-color: white;
+}
+
 @media screen and (max-width: 991.98px) {
   #projects .bottom__projects .nav-item .nav-link {
     font-size: 18px;
@@ -681,6 +735,32 @@ header .dropdown-menu {
     font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #projects .bottom__projects {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #bottom__projects{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #projects .bottom__projects {
+    width: 90%;
+    margin: auto;
+  }
+}
+
 /* ==================== */
 
 /* Our Clients Testimonials */
