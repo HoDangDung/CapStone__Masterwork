@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
 }
 /* Phần dùng chung */
 .title h3 {
