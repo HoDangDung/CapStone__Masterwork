@@ -683,7 +683,7 @@ a:not([href]):not([tabindex]):hover {
 }
 @media screen and (max-width: 767.98px) {
   #projects .bottom__projects .nav-item .nav-link {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 575.98px) {
