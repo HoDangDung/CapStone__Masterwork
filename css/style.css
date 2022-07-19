@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
   font-family: "Nunito", sans-serif;
 }
 /* Phần dùng chung */
@@ -581,7 +582,11 @@ header .dropdown-menu {
 .title__bottom .card-header .card-body {
   color: black;
 }
-
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+  color: black;
+  text-decoration: none;
+}
 /* ==================== */
 
 /* PROJECTS */
@@ -732,7 +737,12 @@ header .dropdown-menu {
 }
 @media screen and (max-width: 767.98px) {
   #projects .bottom__projects .nav-item .nav-link {
-    font-size: 14px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  #projects .bottom__projects .nav-item .nav-link {
+    font-size: 10px;
   }
 }
 

@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
 }
 /* Phần dùng chung */
 .title h3 {
@@ -607,6 +608,11 @@ header .dropdown-menu {
   color: white;
 }
 
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+  color: white;
+  text-decoration: none;
+}
 /* ==================== */
 
 /* PROJECTS */
@@ -715,6 +721,7 @@ header .dropdown-menu {
   transform: translateY(-10px);
 }
 
+<<<<<<< HEAD
 #bottom__projects a{
   color: black;
 }
@@ -750,6 +757,8 @@ header .dropdown-menu {
   background-color: white;
 }
 
+=======
+>>>>>>> b4e57a4916446db611c276866a321c1938db2ca0
 @media screen and (max-width: 991.98px) {
   #projects .bottom__projects .nav-item .nav-link {
     font-size: 18px;
@@ -757,6 +766,7 @@ header .dropdown-menu {
 }
 @media screen and (max-width: 767.98px) {
   #projects .bottom__projects .nav-item .nav-link {
+<<<<<<< HEAD
     font-size: 14px;
   }
 }
@@ -786,6 +796,16 @@ header .dropdown-menu {
   }
 }
 
+=======
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  #projects .bottom__projects .nav-item .nav-link {
+    font-size: 10px;
+  }
+}
+>>>>>>> b4e57a4916446db611c276866a321c1938db2ca0
 /* ==================== */
 
 /* Our Clients Testimonials */
