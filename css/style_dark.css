@@ -607,6 +607,11 @@ header .dropdown-menu {
   color: white;
 }
 
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+  color: white;
+  text-decoration: none;
+}
 /* ==================== */
 
 /* PROJECTS */
