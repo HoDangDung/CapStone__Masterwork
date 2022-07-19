@@ -686,6 +686,11 @@ a:not([href]):not([tabindex]):hover {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 575.98px) {
+  #projects .bottom__projects .nav-item .nav-link {
+    font-size: 10px;
+  }
+}
 /* ==================== */
 
 /* Our Clients Testimonials */
