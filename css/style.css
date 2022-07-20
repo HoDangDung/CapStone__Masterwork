@@ -611,13 +611,13 @@ a:not([href]):not([tabindex]):hover {
   color: #5a5a5a;
 }
 
-#projects .button{
+#projects .button {
   text-decoration: none;
   color: #dc4f72;
   border: 1px solid #dd5476;
 }
 
-#projects .button:hover{
+#projects .button:hover {
   text-decoration: none;
   color: white;
   background-color: #dc4f72;
@@ -663,7 +663,7 @@ a:not([href]):not([tabindex]):hover {
   border-radius: 0;
 }
 
-.tab-content{
+.tab-content {
   width: 98%;
   margin: auto;
 }
@@ -695,7 +695,7 @@ a:not([href]):not([tabindex]):hover {
   transform: translateY(-10px);
 }
 
-#bottom__projects a{
+#bottom__projects a {
   color: black;
 }
 
@@ -705,27 +705,27 @@ a:not([href]):not([tabindex]):hover {
   border: 1px solid #8080806e;
 }
 
-#bottom__projects .card-header{
+#bottom__projects .card-header {
   cursor: pointer;
 }
 
-#bottom__projects .card-header i{
+#bottom__projects .card-header i {
   float: right;
   color: #c1c1c1;
   font-size: 1.3rem;
 }
 
-#bottom__projects .card-body{
+#bottom__projects .card-body {
   border-top: 3px solid #dc4f72;
 }
 
-#bottom__projects .card-body img{
+#bottom__projects .card-body img {
   width: 100%;
   margin: auto;
   border-radius: 5px;
 }
 
-#bottom__projects .card-link.active, 
+#bottom__projects .card-link.active,
 #bottom__projects .show > .card-header {
   background-color: white;
 }
@@ -746,11 +746,11 @@ a:not([href]):not([tabindex]):hover {
   }
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
-}
+} */
 
 @media only screen and (max-width: 768px) {
   #projects .bottom__projects {
@@ -759,7 +759,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 @media only screen and (min-width: 768px) {
-  #bottom__projects{
+  #bottom__projects {
     display: none;
   }
 }
